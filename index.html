@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Portofolio - Website</title>
+</head>
+<body>
+    <!-- Video Background - Diposisikan di awal body agar berfungsi sebagai latar belakang penuh -->
+    <div class="video-background">
+        <video id="background-video" autoplay muted loop playsinline>
+            <source src="./assets/video/sky-night.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Akml
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-4-line"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i>Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i>Projects
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close"> <i class="ri-close-line"></i> </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Tambahkan tombol untuk dark/light theme jika ingin ada -->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                <div class="nav__toggle" id="nav-toggle"> <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border animate__animated animate__fadeInUp">
+                <div class="home__content-left">
+                    <h1 class="home__title">
+                        Hi, I'm Akmal <br>
+                        UIUX Designer <br>
+                        Based In Indonesia <br>
+                    </h1>
+
+                    <div>
+                        <ul class="home__social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/akmal-irsyad-750727374/" target="_blank" rel="noopener noreferrer" class="home__social-link" title="Profil Linkdin">
+                                    <i class="ri-linkedin-box-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Akmlzzz" target="_blank" rel="noopener noreferrer" class="home__social-link" title="Profil GitHub">
+                                    <i class="ri-github-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://dribbble.com/Mayden55" target="_blank" rel="noopener noreferrer" class="home__social-link" title="Profil Dribble">
+                                    <i class="ri-dribbble-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                BIOGRAPHY
+                            </h3>
+                            <p class="home__info-description">
+                                Passionate about designing beautiful Website.<br>
+                                Based In Indonesian.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                CONTACT
+                            </h3>
+                            <p class="home__info-description">
+                                Bandung, Indonesian<br>
+                                akmalirsyadrpl.jr55@gmail.com<br>
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
+                            <p class="home__info-description">
+                                Front End Developer. <br>
+                                UI/UX Design. <br>
+                                Graphic Design. <br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                YEARS OF EXPERIENCE
+                            </h3>
+                            <p class="home__info-number">
+                                01+
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                COMPLETED PROJECTS
+                            </h3>
+                            <p class="home__info-number">
+                                17+
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                COMPANIES WORKED
+                            </h3>
+                            <p class="home__info-number">
+                                Internship In <br>
+                                PT INOVINDO DIGITAL MEDIA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__blob grid">
+                    <div class="home__perfil">
+                        <img src="./assets/img/home perfil-2.png" alt="home perfil">
+                    </div>
+                    <!-- <img src="./assets/img/shape-wawes.svg" alt="" class="home__shape-wawes"> -->
+                    <img src="./assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h1 class="section__title animate__animated animate__fadeInUp">Skills</h1>
+            <span class="section__subtitle animate__animated animate__fadeInUp">My Favorite Skills</span>
+
+            <div class="skills__container container grid section__border animate__animated animate__fadeInUp">
+
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Front End Developer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./assets/img/html-1.svg" alt="HTML logo">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./assets/img/css-3.svg" alt="CSS logo">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./assets/img/logo-javascript.svg" alt="JavaScript logo">
+                            </div>
+                            <h3 class="skills__name">JS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./assets/img/dart-logo.svg" alt="Dart logo">
+                            </div>
+                            <h3 class="skills__name">Dart</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-article-line"></i> UI/UX Designer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./assets/img/figma-1.svg" alt="Figma logo">
+                            </div>
+                            <h3 class="skills__name">Figma</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title animate__animated animate__fadeInUp">Qualification</h2>
+            <span class="section__subtitle animate__animated animate__fadeInUp">Experience & Education</span>
+
+            <div class="qualification__container container grid section__border animate__animated animate__fadeInUp">
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-briefcase-line"></i> Experience
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Internship
+                            </h3>
+                            <span class="qualification__country">PT INOVINDO DIGITAL MEDIA</span>
+                            <span class="qualification__year">2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-line"></i>Education
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Major in Software Engineering
+                            </h3>
+                            <span class="qualification__country">Budi Bakti Ciwidey Vocational High School <br></span>
+                            <span class="qualification__year">2023 - 2026</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                01 Rancabali Junior High School
+                            </h3>
+                            <span class="qualification__country">Rancabali, Indonesia</span>
+                            <span class="qualification__year">2020 - 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                01 Babakan Jampang Elementary School
+                            </h3>
+                            <span class="qualification__country">Rancabali, Indonesia</span>
+                            <span class="qualification__year">2014 - 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="./assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title animate__animated animate__fadeInUp">Projects</h2>
+            <span class="section__subtitle animate__animated animate__fadeInUp">Most Recent Works</span>
+
+            <div class="container section__border">
+                <div class="projects__grid grid animate__animated animate__fadeInUp">
+                    <div class="projects__content">
+                        <img src="./assets/img/project-1.png" alt="projects image" class="projects__img">
+                        <div>
+                            <span class="projects__subtitle">Design</span>
+                            <h1 class="projects__title">E-Commerce Website Design</h1>
+                            <a href="#" class="projects__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="projects__content">
+                        <img src="./assets/img/project-2.png" alt="projects image" class="projects__img">
+                        <div>
+                            <span class="projects__subtitle">Design</span>
+                            <h1 class="projects__title">Website Chat App </h1>
+                            <a href="#" class="projects__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="projects__content">
+                        <img src="./assets/img/frame 1.png" alt="projects image" class="projects__img">
+                        <div>
+                            <span class="projects__subtitle">Landing Page</span>
+                            <h1 class="projects__title">Comic Book Website</h1>
+                            <a href="#" class="projects__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="projects__content">
+                        <img src="./assets/img/poster-film-2.jpg" alt="projects image" class="projects__img">
+                        <div>
+                            <span class="projects__subtitle">Design</span>
+                            <h1 class="projects__title">Film Poster Design</h1>
+                            <a href="#" class="projects__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial section">
+        </section>
+
+        <section class="contact section" id="contact">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__links">
+            <a href="#home" class="footer__link">Home</a>
+            <a href="#skills" class="footer__link">Skills</a>
+            <a href="#qualification" class="footer__link">Qualification</a>
+            <a href="#projects" class="footer__link">Projects</a>
+        </div>
+        <span class="footer__copy">
+            &#169; Akml. All Rights Reserved.
+        </span>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scroll-animations.js"></script>
+</body>
+</html>
